@@ -55,7 +55,7 @@ setup(name='songbird',
       setup_requires=['numpy >= 1.9.2'],
       install_requires=[
           'numpy >= 1.9.2',
-          'pandas >= 0.18.0',
+          'pandas >= 0.18.0,<1',
           'scipy >= 0.15.1',
           'nose >= 1.3.7',
           'patsy',
